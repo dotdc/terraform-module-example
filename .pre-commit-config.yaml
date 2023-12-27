@@ -14,7 +14,7 @@ repos:
 
   # Terraform hooks
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.84.0
+    rev: v1.86.0
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
@@ -28,6 +28,6 @@ repos:
 
   # Typos
   - repo: https://github.com/crate-ci/typos
-    rev: v1.16.24
+    rev: v1.16.25
     hooks:
       - id: typos
