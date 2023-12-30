@@ -3,8 +3,6 @@ name: repo-sync
 # Doc: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
 
 on:
-  schedule:
-    - cron:  "0 1 * * MON"
   # Allow this workflow to be manually triggered
   workflow_dispatch:
 
